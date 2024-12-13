@@ -1,2 +1,1 @@
-# chinchulin_rabioso
-zarpado mod
+esotilin
