@@ -3,9 +3,10 @@
 	"id": "momomod",
 	"version": "${version}",
 	"name": "momomod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Mod todo bueno",
 	"authors": [
-		"Me!"
+		"bnjax3",
+		"Hex4Gone"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
