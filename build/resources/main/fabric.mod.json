@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "momomod",
+	"version": "1.0.0-1.18.2",
+	"name": "momomod",
+	"description": "Mod todo bueno",
+	"authors": [
+		"bnjax3",
+		"Hex4Gone"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/momomod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bnjax3.momomod.Momomod"
+		],
+		"fabric-datagen": [
+			"net.bnjax3.momomod.MomomodDataGenerator"
+		]
+	},
+	"mixins": [
+		"momomod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
